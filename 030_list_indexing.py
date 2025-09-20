@@ -14,7 +14,7 @@ my_list[1:3] # Evaluates to [35, 21]
 # lists!
 
 # @TASK: Complete the following exercises. You can check them as you go by
-# running: python 030_list_indexing.py
+# running: python3 030_list_indexing.py
 
 # == Exercise One ==
 
@@ -23,6 +23,7 @@ print("Function: get_first_item")
 
 def get_first_item(the_list):
   # Return the first item of the list
+  return the_list[0]
   pass
 
 check_that_these_are_equal(
@@ -42,6 +43,7 @@ print("Function: get_last_item")
 
 def get_last_item(the_list):
   # Return the last item of the list
+  return the_list[-1]
   pass
 
 check_that_these_are_equal(
@@ -61,6 +63,7 @@ print("Function: get_nth_item")
 
 def get_nth_item(the_list, n):
   # Return the item of the list at the specified index
+  return the_list[n]
   pass
 
 check_that_these_are_equal(
@@ -80,6 +83,7 @@ print("Function: get_items_between_one_and_three")
 
 def get_items_between_one_and_three(the_list):
   # Return the section of the list between indexes one and three
+  return the_list[1:3]
   pass
 
 check_that_these_are_equal(
