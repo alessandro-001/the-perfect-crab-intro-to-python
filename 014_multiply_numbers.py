@@ -17,6 +17,6 @@ print(multiply_numbers(3, 5))
 
 # @TASK: Run these in the terminal using:
 
-#   python 014_multiply_numbers.py
+#   python3 014_multiply_numbers.py
 
 # Now move on to 015_add_numbers.py to write your own.

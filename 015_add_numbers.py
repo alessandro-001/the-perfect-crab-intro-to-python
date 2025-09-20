@@ -11,14 +11,15 @@ from lib.helpers import check_that_these_are_equal
 # * Returns the result
 
 # YOUR FUNCTION GOES BELOW THIS LINE
-
+def add_numbers(num1, num2):
+    return num1 + num2
 
 
 # YOUR FUNCTION GOES ABOVE THIS LINE
 
 # @TASK: Check your work by running:
 
-#   python 015_add_numbers.py
+#   python3 015_add_numbers.py
 
 # Below is a test for your function.
 
