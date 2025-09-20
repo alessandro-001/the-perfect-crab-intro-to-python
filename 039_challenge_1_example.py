@@ -17,6 +17,7 @@
 # * Creates a graph of how frequently each number shows up
 #
 # If you've not used the videos so far, you might want to do so for this one. It
+
 # will show you how I build up the program piece by piece.
 
 example_numbers = [1, 2, 3, -2, -2, 2, None, -3, 4, 4, None, 3, 3, 2, 2, 1]
