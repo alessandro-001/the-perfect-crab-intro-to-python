@@ -61,6 +61,17 @@ print("Function: count_words_by_length")
 # Since there are two words of length 3, etc.
 
 def count_words_by_length(words):
+  # create empty dictionary
+  word_count = {}
+  #for each word in words
+  for word in words: 
+    word_length = len(word) #check word length
+    # if the length of that word is already in the dictionary
+    if word_length in word_count:
+      word_count[word_length] = word_count[word_length] +1 # add 1 to that count
+    else:
+      word_count[word_length] = 1 # assign 1 if there is only one word of unique count
+  return word_count # return the dictionary
   pass
 
 check_that_these_are_equal(
